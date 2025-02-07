@@ -1,5 +1,11 @@
-import Image from "next/image";
+"use client";
+
+import { Hero } from "@/components";
 
 export default function Home() {
-  return <div className="overflow-hidden">LuckyCar</div>;
+  return (
+    <div className="overflow-hidden">
+      <Hero />
+    </div>
+  );
 }
